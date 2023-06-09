@@ -35,7 +35,17 @@
             Bar Chart Race - Observable D3</a></p>
             
                 <div class="cp_oculta" id="texto3"> 
-                    <iframe width="100%" height="682" frameborder="0" src="https://observablehq.com/embed/700f8eeca388ca74@3062?cells=chart"></iframe>
+                    <div id="observablehq-chart-6cd5a766"></div>
+<p>Credit: <a href="https://observablehq.com/d/700f8eeca388ca74@3062">Bar Chart Race by uem</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/700f8eeca388ca74@3062.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-6cd5a766"));
+});
+</script>
                 </div>                             
     </body>
 </html>
